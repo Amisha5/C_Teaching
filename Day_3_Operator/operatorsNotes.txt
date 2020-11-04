@@ -1,0 +1,82 @@
+#######Day 3#########
+
+OPERATORS::
+
+An operator is a symbol that tells the compiler to perform specific mathematical or logical functions.
+
+Types of operators::
+1.Unary  2.Binary  3.Ternary
+
+1.Unary:Operation perform on single operand
+	
+	#Increment/ Decrement operator
+	#SizeOf operator
+
+2.Binary:Operation performs on Two Operands
+
+	# Arithmetic Operators
+	# Relational Operators
+	# Logical Operators
+	# Assignment Operators
+	# Bitwise Operators
+
+3.Ternary: Simple Decision-Making operator
+	#Conditional/ Ternaray operator
+
+
+###### Explanation Of Operatores ##########
+
+
+1.Arithmetic Operators-: used to perform basic arithmetic operation.
+	 +  -  *  /  % 
+  example:: a+b ; where a , b is operand and + is operator.
+
+
+2.Relational Operators-: used to compare the values. It is also known as Comparision Operator.
+  it will give output in form of 0 and 1. if condition is true it will generate output 1 and if condition is false output will be 0.
+	 >  >=  <  <=  ==  !=
+  example:: a=2,b=3;
+	    a>b = 0
+	    a<b = 1
+
+3.Logical Operators-: used in between Relational operator.
+	&&(AND) = If both the operands are non-zero, then the condition becomes true.
+	||(OR) =  If any of the two operands is non-zero, then the condition becomes true.
+	!(NOT) = It reverse the logical state of its operand. If a condition is true, then NOT operator will make it false.
+  example:: a=2,b=3;
+	    (a>b) && (a<b) = 0
+
+
+4.Assignment Operators-: (=)Used to assign value from right to left operand.
+	Compound operators:- it is Combination of Arithmetic and Assignment operator.
+		+=  -=  *=  /=  %=
+example: a+=b is equivalent yo a=a+b; here a+b value will be assigned to left side operand a;
+
+
+5.Bitwise Operators-: Bitwise operator works on bits(0,1) and perform bit-by-bit operation.
+	& = work as multiplication 0&0=0, 0&1=0,1&0=0, 1&1=1
+	| = works as addition 0&0=0, 0&1=1, 1&0=1, 1&1=1
+	^ = it give 0 at same operand value and 1 for different operand value. i.e; 0&0=1, 0&1=0,1&0=0, 1&1=0 
+	<< = (Binary Left shift operator) Here value is shifted left by the number of bits specified by the right operand. ex: a=4; a<<2 = 16 i.e; 10000
+	>> = (Binary Right shift operator) Here value is shifted Right by the number of bits specified by the right operand. ex: a=8; a>>2 = 2 i.e; 0010
+
+
+6.Ternary Operator-: used for decision making.
+	Syntax: (Condition)? Statement1: Statement2;
+example: age=20;
+	 (age>18)?printf("eligible for vote"):printf("Not eligible for vote");
+here if condition is fullfilled then it will print "eligible for vote" else print "not eligible for vote".
+
+
+7.Increment/Decrement-: increase or decrease the value using this operator. performed on single operand.
+	++  = it will increment(increase) value by 1. 
+	--  = it will decrement(decrease) value by 1.
+pre increment/decrement = ++a, --a
+post increment.decrement = a++, a--
+
+8.sizeOf() operator: used to find out the size of datatype or variable.
+ syntax:: sizeof(datatype_name); ex: sizeof(int) sizeof(char)
+	  sizeof(variable_name);
+	 ex: int a; char ch;
+	 sizeof(a) sizeof(ch)
+  
