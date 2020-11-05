@@ -1,0 +1,52 @@
+Token :: Smallest unit of C program..
+
+few types of Tokens are::
+1.Identifier
+2.Variable
+3.Constant
+4.Keywords
+5.Operators
+
+1.Identifier :: 
+
+2 Variable :: it is storage unit.
+	It is used to store data and value can be changed.
+
+syntax:: type variable_list;  
+example:: int num; float fl;
+
+rules for defining variable::
+@ A variable can have alphabets, digits, and underscore.
+@ A variable name can start with the alphabet, and underscore only. It can't start with a digit.
+@ No whitespace is allowed within the variable name.
+	example:: int num vlaue // invalid 
+		  int numvalue // valid
+@ A variable name must not be any keyword, e.g. int, float, etc.
+
+types of variable::
+#.local variable::that is declared inside the block.
+	example:: void main()
+		 {
+		   int num=10; //local variable
+		 }
+
+#.GLobal Variable::that is declared outside the function or block.
+	example:: int number=30; //global variable
+		 void main()
+		 {
+		   int num=10; //local variable
+		 }
+
+3.Constant ::t is storage unit.
+	It is used to store data and value can not be changed.
+	to declare constant we use "const" keyword..
+example:: const int num=10; // further num value cant be changed because it is constant.
+
+4.Keywords:: are reserved words.whose functionality is fixed. there are 32 keywords in C language.
+	void, int , char , double , float, const, short, long,
+	signed, unsigned, if, else , do, for, while, switch,auto
+	case, default, break , continue, goto, return, volatile,
+ 	extern, static, register, enum, struct,union, typedef, sizeof
+
+5.Operatores:: It is simply a symbol that is used to perform operations. There can be many types of operations like arithmetic, logical, bitwise, etc.
+		we will see his topic in further classes....
